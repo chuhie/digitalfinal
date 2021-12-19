@@ -1,0 +1,318 @@
+
+body {margin: auto; padding: 0%;
+
+
+
+background-color:white;
+}
+
+
+
+
+
+.col-1 { position:absolute;
+   left: 50%;
+   top: 8%;
+   transform: translate(-50%, -50%);
+   
+}
+
+.col-1 img {width: 650px; 
+    height: auto;}
+
+
+   
+
+
+
+
+.col-2 { position:absolute;
+    left:0%;
+top: calc(50% - 90px);
+animation: motion 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+
+.col-2 img {width: 600px; height: auto;}
+
+
+
+
+.col-3 { position:absolute;
+    right:5%;
+top: calc(55%);
+animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+.col-3 img {width: 550px; height: auto;}
+
+
+
+
+.col-4 { position:absolute;
+
+top: calc(15%);
+left: calc(45%);
+animation: motion 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+.col-4 img {width: 250px; height: auto;}
+
+
+
+
+
+
+.col-5 { position:absolute;
+
+    top:3%;
+    right: 2%;
+    animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+    .col-5 img {width: 350px; height: auto;}
+
+
+    .col-6 { position:absolute;
+
+        left:2%;
+        top:5%;
+        animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+        .col-6 img {width: 450px; height: auto;}
+
+        /*nohover*/
+
+        .p-1 { position:absolute;
+
+            top:45%;
+            right: 2%;
+            animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+            .p-1 img {width: 300px; height: auto;}
+
+
+            .p-2 { position:absolute;
+
+                top:45%;
+                right:30%;
+                animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+                .p-2 img {width: 80px; height: auto;}
+
+                .p-3 { position:absolute;
+
+                    top:57%;
+                    right:46%;
+                    animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+                    .p-3 img {width: 60px; height: auto;}
+
+                    .p-4 { position:absolute;
+
+                        top:76%;
+                        right:50%;
+                        animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+                        .p-4 img {width: 130px; height: auto;}
+
+
+
+
+                        .p-5 { position:absolute;
+
+                            top:86%;
+                            right:40%;
+                            animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+
+                            .p-5 img {width: 60px; height: auto;}
+
+                            .p-6 { position:absolute;
+
+                                top:26%;
+                                right:30%;
+                                animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+
+                                .p-6 img {width: 30px; height: auto;}
+
+                                
+
+
+
+
+      
+@keyframes motion {
+    0%, 100% {
+        transform: rotate(1deg);
+}
+
+
+50% {
+    transform: rotate(-1deg);
+}
+}
+
+
+@keyframes motion2 {
+    0%, 100% {
+        transform: rotate(-1deg);
+}
+
+
+50% {
+    transform: rotate(1deg);
+}
+}
+
+
+
+
+/*mobile*/
+
+
+@media (max-width: 1000px)
+
+{
+
+body {
+    
+    margin: auto;
+     padding: 0%;
+background-color:white;
+}
+    
+    .col-1 { margin: auto;
+        left: 50%;
+        top: 6%;
+        transform: translate(-50%, -50%);
+        
+     }
+     
+     .col-1 img {width:250px; 
+         height: auto;}
+     
+     
+     
+     
+     .col-2 { position:absolute;
+         left:4%;
+     top: calc(73% - 90px);
+     animation: motion 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+     
+     .col-2 img {width: 170px; height: auto;}
+     
+     
+     
+     
+     .col-3 { position:absolute;
+         right: 25%;
+     top: calc(110%);
+     animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+     .col-3 img {width: 200px; height: auto;}
+     
+     
+     
+     
+     .col-4 { position:absolute;
+     
+     top: calc(80%);
+     left: calc(15%);
+     animation: motion 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+     .col-4 img {width:100px; height: auto;}
+     
+     
+     
+     
+     
+     
+     .col-5 { position:absolute;
+     
+         top:8%;
+         right: 15%;
+         animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+         .col-5 img {width:215px; height: auto;}
+     
+     
+         .col-6 { position:absolute;
+     
+             left:4%;
+             top:35%;
+             animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+             .col-6 img {width: 260px; height: auto;}
+     
+             /*nohover*/
+     
+             .p-1 { position:absolute;
+     
+                 top: 100%;
+                 right: 20%;
+                 animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+                 .p-1 img {width: 100px; height: auto;}
+     
+     
+                 .p-2 { position:absolute;
+     
+                     top:105%;
+                     right:57%;
+                     animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+                     .p-2 img {width: 40px; height: auto;}
+     
+                     .p-3 { position:absolute;
+     
+                            top:18%;
+                            right:6%;
+                            animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+                         .p-3 img {width: 50px; height: auto;}
+     
+                         .p-4 { position:absolute;
+     
+                             top:75%;
+                             right:7%;
+                             animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+                             .p-4 img {width:100px; height: auto;}
+     
+     
+     
+     
+                             .p-5 { position:absolute;
+     
+                                 top:57%;
+                                 right:10%;
+                                 animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+     
+                                 .p-5 img {width: 40px; height: auto;}
+     
+                                 .p-6 { position:absolute;
+     
+                                     top:95%;
+                                     right:80%;
+                                     animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
+     
+                                     .p-6 img {width: 20px; height: auto;}
+     
+                                 }
