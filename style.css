@@ -213,24 +213,24 @@ background-color:white;
      
      
      .col-3 { position:absolute;
-         right: 25%;
-     top: calc(110%);
+         right: 5%;
+     top: calc(115%);
      animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
      
      
-     .col-3 img {width: 200px; height: auto;}
+     .col-3 img {width: 250px; height: auto;}
      
      
      
      
      .col-4 { position:absolute;
      
-     top: calc(80%);
+     top: calc(77%);
      left: calc(15%);
      animation: motion 0.3s linear 0s infinite alternate; margin-left: 0;}
      
      
-     .col-4 img {width:100px; height: auto;}
+     .col-4 img {width:200px; height: auto;}
      
      
      
@@ -261,7 +261,7 @@ background-color:white;
              .p-1 { position:absolute;
      
                  top: 100%;
-                 right: 20%;
+                 right: 5%;
                  animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
      
      
@@ -271,7 +271,7 @@ background-color:white;
                  .p-2 { position:absolute;
      
                      top:105%;
-                     right:57%;
+                     right:70%;
                      animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
      
      
@@ -310,7 +310,7 @@ background-color:white;
                                  .p-6 { position:absolute;
      
                                      top:95%;
-                                     right:80%;
+                                     right:85%;
                                      animation: motion2 0.3s linear 0s infinite alternate; margin-left: 0;}
      
                                      .p-6 img {width: 20px; height: auto;}
